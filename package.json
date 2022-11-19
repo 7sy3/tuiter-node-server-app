@@ -16,6 +16,16 @@
   "author": "Chloe Huang",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7sy3/tuiter-node-server-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/7sy3/tuiter-node-server-app/issues"
+  },
+  "homepage": "https://github.com/7sy3/tuiter-node-server-app#readme"
 }

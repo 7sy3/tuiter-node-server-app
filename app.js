@@ -9,6 +9,8 @@ import mongoose from "mongoose";
 
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING
     || 'mongodb://localhost:27017/tuiter';
+
+// const CONNECTION_STRING = 'mongodb+srv://admin:St7700@cluster0.qblbynw.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(CONNECTION_STRING);
 
 console.log(CONNECTION_STRING);
